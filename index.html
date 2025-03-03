@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drinkers Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x600'); /* Replace with your own image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .drink-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .drink-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .drink-card:hover {
+            transform: scale(1.05);
+        }
+        .drink-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Drinkers Webpage</h1>
+    <p>Explore and discover amazing drinks</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#drinks">Our Drinks</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to Drinkers World!</h1>
+    <p>Your ultimate guide to amazing drinks</p>
+</div>
+
+<div class="section" id="drinks">
+    <h2>Our Featured Drinks</h2>
+    <div class="drink-cards">
+        <div class="drink-card">
+            <img src="https://via.placeholder.com/300x200" alt="Cocktail">
+            <h3>Cocktail</h3>
+            <p>Delicious cocktails to brighten your day</p>
+        </div>
+        <div class="drink-card">
+            <img src="https://via.placeholder.com/300x200" alt="Juice">
+            <h3>Fresh Juice</h3>
+            <p>Refreshing fruit juices made just for you</p>
+        </div>
+        <div class="drink-card">
+            <img src="https://via.placeholder.com/300x200" alt="Coffee">
+            <h3>Coffee</h3>
+            <p>Start your day with a perfect cup of coffee</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <h2>About Us</h2>
+    <p>We are a group of passionate drink enthusiasts who aim to bring you the finest beverages from around the world. Whether you're into cocktails, juices, or coffee, we have something for everyone.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Drinkers Webpage. All rights reserved.</p>
+    <p>Follow us on social media: <a href="#" style="color: white;">Facebook</a> | <a href="#" style="color: white;">Instagram</a> | <a href="#" style="color: white;">Twitter</a></p>
+</footer>
+
+</body>
+</html>
