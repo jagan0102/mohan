@@ -1,5 +1,16 @@
 {
+  "name": "my-app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "build": "your-build-command"
-  }
+    "start": "node server.js",
+    "build": "npm run build",
+    "build:azure": "npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
 }
