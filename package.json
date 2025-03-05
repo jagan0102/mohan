@@ -1,23 +1,5 @@
 {
-  "name": "mohan",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jagan0102/mohan.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jagan0102/mohan/issues"
-  },
-  "homepage": "https://github.com/jagan0102/mohan#readme",
-  "keywords": [],
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2"
+    "build": "your-build-command"
   }
 }
